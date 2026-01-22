@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.course-card img {
+    height: 180px;
+    object-fit: fill;
+}
+.badge-top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.col-md-4{
+    transition: all 0.3s ease;
+}
+.col-md-4:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+    box-shadow: 15px 15px 15px rgba(152, 152, 152, 0.162);
+}

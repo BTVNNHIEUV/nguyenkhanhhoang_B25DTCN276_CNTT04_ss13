@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.stat-box {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 30px 20px;
+}
+
+.stat-box .icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.stat-box .number {
+  color: #5a5ff0;
+  font-weight: 700;
+  margin: 0;
+}
+
+.stat-box p {
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 14px;
+}
